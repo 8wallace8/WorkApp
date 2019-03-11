@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<projects>
+	<project projectID="1" projectName="Kyle's Subdivision"   developmentType="RCSD-A"             projectType="Residential" projectStatus="Review" />
+	<project projectID="2" projectName="Ashley's Subdivision" developmentType="RCSD-A"             projectType="Residential" projectStatus="Review" />
+	<project projectID="3" projectName="Greyfairs"            developmentType="RCSD-A"             projectType="Residential" projectStatus="Review" />
+	<project projectID="4" projectName="Reese Farms"          developmentType="5 Acres or Greater" projectType="Residential" projectStatus="Review" />
+	<project projectID="5" projectName="Mill Pond"            developmentType="5 Acres or Greater" projectType="Residential" projectStatus="Review" />
+	<project projectID="6" projectName="Mountain Hills"       developmentType="Re 2.5"             projectType="Residential" projectStatus="Review" />
+	<project projectID="7" projectName="Grove Park"           developmentType=""                   projectType="Industrial"  projectStatus="Construction" />
+	<project projectID="8" projectName="Brown Estates"        developmentType="RE 2.5"             projectType="Residential" projectStatus="Construction" />
+	<project projectID="9" projectName="Bridgeport"           developmentType=""                   projectType="Industrial"  projectStatus="Complete" />
+	<project projectID="10" projectName="Kyle's Subdivision"   developmentType="RCSD-A"             projectType="Residential" projectStatus="Review" />
+	<project projectID="11" projectName="Kyle's Subdivision"   developmentType="RCSD-A"             projectType="Residential" projectStatus="Review" />
+	<project projectID="12" projectName="Ashley's Subdivision" developmentType="RCSD-A"             projectType="Residential" projectStatus="Review" />
+	<project projectID="13" projectName="Greyfairs"            developmentType="RCSD-A"             projectType="Residential" projectStatus="Review" />
+	<project projectID="14" projectName="Reese Farms"          developmentType="5 Acres or Greater" projectType="Residential" projectStatus="Review" />
+	<project projectID="15" projectName="Mill Pond"            developmentType="5 Acres or Greater" projectType="Residential" projectStatus="Review" />
+	<project projectID="16" projectName="Mountain Hills"       developmentType="Re 2.5"             projectType="Residential" projectStatus="Review" />
+	<project projectID="17" projectName="Grove Park"           developmentType=""                   projectType="Industrial"  projectStatus="Construction" />
+	<project projectID="18" projectName="Brown Estates"        developmentType="RE 2.5"             projectType="Residential" projectStatus="Construction" />
+	<project projectID="19" projectName="Bridgeport"           developmentType=""                   projectType="Industrial"  projectStatus="Complete" />
+</projects>

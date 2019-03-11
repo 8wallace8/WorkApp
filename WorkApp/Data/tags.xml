@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tags>
+	<tag tagID="0" projectID="1" tagType="ES" description="This is a Discription"/>
+	<tag tagID="1" projectID="1" tagType="ES" description="This is a Discription"/>
+	<tag tagID="2" projectID="2" tagType="ES" description="This is a Discription"/>
+	<tag tagID="3" projectID="2" tagType="ES" description="This is a Discription"/>
+	<tag tagID="4" projectID="3" tagType="ES" description="This is a Discription"/>
+	<tag tagID="5" projectID="3" tagType="ES" description="This is a Discription"/>
+</tags>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<reviews>
+	<review reviewID="0" projectID="1" reviewType="Site Plans"       submittalDate="1/2/2019"  commentsSent="2/22/19" approved="False"  comments="This is a comment"/>
+	<review reviewID="1" projectID="1" reviewType="Site Plans"       submittalDate="2/4/2019"  commentsSent="2/22/19" approved="False"  comments="This is a comment"/>
+	<review reviewID="2" projectID="1" reviewType="Site Plans"       submittalDate="3/12/2019" commentsSent="2/22/19" approved="True" comments="This is a comment"/>
+	<review reviewID="3" projectID="1" reviewType="Preliminary Plat" submittalDate="4/24/2019" commentsSent="2/22/19" approved="False"  comments="This is a comment"/>
+	<review reviewID="4" projectID="2" reviewType="Preliminary Plat" submittalDate="4/11/2019" commentsSent="2/22/19" approved="True" comments="This is a comment"/>
+	<review reviewID="5" projectID="2" reviewType="ESPCP"            submittalDate="4/9/2019"  commentsSent="2/22/19" approved="False"  comments="This is a comment"/>
+	<review reviewID="6" projectID="3" reviewType="ESPCP"            submittalDate="4/21/2019" commentsSent="2/22/19" approved="True" comments="This is a comment"/>
+</reviews>
