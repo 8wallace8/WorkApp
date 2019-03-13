@@ -9,23 +9,22 @@ using WorkApp.Models;
 
 namespace WorkApp.ViewModels
 {
-    public class ProjectViewModel : Screen
+    class ProjectDetailViewModel : Screen
     {
-        
         string reviewData = "Data/reviews.xml";
         string tagData = "Data/tags.xml";
         string inspectionData = "Data/inspections.xml";
 
 
-        public ProjectViewModel(Project project)
+        public ProjectDetailViewModel(Project project)
         {
             Project = project;
             DisplayName = project.ProjectName;
             Reviews = new ReviewRepository(reviewData).Reviews;
             Tags = new TagRepository(tagData).Tags;
             Inspections = new InspectionRepository(inspectionData).Inspections;
-            
-            
+
+
         }
 
         public override string DisplayName { get; set; }
@@ -33,9 +32,5 @@ namespace WorkApp.ViewModels
         public List<Review> Reviews { get; set; }
         public List<Tag> Tags { get; set; }
         public List<Inspection> Inspections { get; set; }
-
-
     }
-
-    
 }

@@ -75,18 +75,23 @@
     <Compile Include="DataAccess\ProjectRepository.cs" />
     <Compile Include="DataAccess\ReviewRepository.cs" />
     <Compile Include="DataAccess\TagRepository.cs" />
+    <Compile Include="Events\ProjectSaveEvent.cs" />
     <Compile Include="Models\Inspection.cs" />
     <Compile Include="Models\Project.cs" />
     <Compile Include="Models\Review.cs" />
     <Compile Include="Models\Tag.cs" />
+    <Compile Include="ViewModels\ProjectDetailViewModel.cs" />
+    <Compile Include="ViewModels\ProjectDiologViewModel.cs" />
     <Compile Include="ViewModels\ProjectListViewModel.cs" />
-    <Compile Include="ViewModels\ProjectViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="Views\ProjectDetailView.xaml.cs">
+      <DependentUpon>ProjectDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProjectDiologView.xaml.cs">
+      <DependentUpon>ProjectDiologView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ProjectListView.xaml.cs">
       <DependentUpon>ProjectListView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\ProjectView.xaml.cs">
-      <DependentUpon>ProjectView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ShellView.xaml.cs">
       <DependentUpon>ShellView.xaml</DependentUpon>
@@ -124,11 +129,15 @@
     <Resource Include="Data\reviews.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Views\ProjectListView.xaml">
+    <Page Include="Views\ProjectDetailView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ProjectView.xaml">
+    <Page Include="Views\ProjectDiologView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ProjectListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

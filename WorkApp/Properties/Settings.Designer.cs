@@ -8,22 +8,93 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WorkApp.Properties
-{
-
-
+namespace WorkApp.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>Residential</string>
+  <string>Commercial</string>
+  <string>Industrial</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection PROJECT_TYPES {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["PROJECT_TYPES"]));
+            }
+            set {
+                this["PROJECT_TYPES"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>RCSD-A</string>
+  <string>RCSD-B</string>
+  <string>RE 2.5</string>
+  <string>5 Acre or greater</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection DEVELOPMENT_TYPES {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["DEVELOPMENT_TYPES"]));
+            }
+            set {
+                this["DEVELOPMENT_TYPES"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>Pre-Submittal</string>
+  <string>Review</string>
+  <string>Construction</string>
+  <string>Close-Out</string>
+  <string>Complete</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection PROJECT_STATUS {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["PROJECT_STATUS"]));
+            }
+            set {
+                this["PROJECT_STATUS"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>RC</string>
+  <string>C-1</string>
+  <string>C-2</string>
+  <string>C-3</string>
+  <string>C-4</string>
+  <string>C-5</string>
+  <string>C-6</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection ZONINGS {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["ZONINGS"]));
+            }
+            set {
+                this["ZONINGS"] = value;
             }
         }
     }

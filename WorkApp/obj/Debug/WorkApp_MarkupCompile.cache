@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\dkyle\source\repos\WorkApp\WorkApp\App.xaml
-3287020096
+4-1130541362
 
-19-1567730225
+22-1337046177
 70730197954
-Views\ProjectListView.xaml;Views\ProjectView.xaml;Views\ShellView.xaml;
+Views\ProjectDetailView.xaml;Views\ProjectDiologView.xaml;Views\ProjectListView.xaml;Views\ShellView.xaml;
 
 False
 

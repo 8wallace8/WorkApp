@@ -33,7 +33,7 @@
                     <GridViewColumn Header="Project Name">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <Button cal:Message.Attach="ShowProjectView($dataContext)"
+                                <Button cal:Message.Attach="ShowProjectDetailView($dataContext)"
                                         Style="{StaticResource HyperlinkButton}"
                                         Focusable="False"
                                         >

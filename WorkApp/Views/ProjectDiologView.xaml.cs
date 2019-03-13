@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WorkApp.Views
 {
     /// <summary>
-    /// Interaction logic for ProjectView.xaml
+    /// Interaction logic for ProjectDiologView.xaml
     /// </summary>
-    public partial class ProjectView : UserControl
+    public partial class ProjectDiologView : Window
     {
-        public ProjectView()
+        public ProjectDiologView()
         {
             InitializeComponent();
         }

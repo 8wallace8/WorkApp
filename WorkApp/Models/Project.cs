@@ -24,9 +24,11 @@ namespace WorkApp.Models
 
         public static Project CreateProject(
             int    projectID,
+            DateTime dateCreated,
             string projectName,
-            string developmentType,
             string projectType,
+            string developmentType,
+            string zoning,
             string projectStatus)
         {
             return new Project
@@ -35,7 +37,10 @@ namespace WorkApp.Models
                 ProjectName = projectName,
                 DevelopmentType = developmentType,
                 ProjectType = projectType,
-                ProjectStatus = projectStatus
+                ProjectStatus = projectStatus,
+                DateCreated = dateCreated,
+                Zoning = zoning
+
             };
         }
 
@@ -72,6 +77,10 @@ namespace WorkApp.Models
         /// Gets/sets the project status
         /// </summary>
         public string ProjectStatus { get; set; }
+
+        public DateTime DateCreated { get; set; }
+
+        public string Zoning { get; set; }
 
         #endregion // State Properties
 

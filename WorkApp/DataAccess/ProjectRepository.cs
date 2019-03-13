@@ -87,11 +87,14 @@ namespace WorkApp.DataAccess
                     (from projectElem in XDocument.Load(xmlRdr).Element("projects").Elements("project")
                      select Project.CreateProject(
                         (int)projectElem.Attribute("projectID"),
+                        (DateTime)projectElem.Attribute("dateCreated"),
                         (string)projectElem.Attribute("projectName"),
-                        (string)projectElem.Attribute("developmentType"),
                         (string)projectElem.Attribute("projectType"),
-                        (string)projectElem.Attribute("projectStatus")
+                        (string)projectElem.Attribute("developmentType"),
+                        (string)projectElem.Attribute("zoning"),
+                        (string)projectElem.Attribute("projectStatus")          
                          )).ToList();
+
         }
 
         static Stream GetResourceStream(string resourceFile)
